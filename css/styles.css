@@ -30,14 +30,10 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-  margin: 0;
-  padding: 0;
-}
-
+h6,
 p {
-  margin: 0;
-  padding: 0;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .body {
@@ -145,6 +141,12 @@ p {
 }
 
 /* Features */
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .features-title {
   font-size: 14px;
   font-weight: 700;
@@ -159,6 +161,10 @@ p {
 }
 
 /* About */
+.about {
+  padding-bottom: 94px;
+}
+
 .about-title,
 .team-title {
   font-weight: 700;
@@ -171,6 +177,8 @@ p {
 /* Our team */
 .team {
   background-color: var(--background-grey-btn-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .photo {
@@ -198,6 +206,8 @@ p {
 }
 .contacts {
   background-color: var(--background-dark);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .address-info {
   font-style: normal;

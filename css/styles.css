@@ -1,0 +1,224 @@
+:root {
+  --background-dark: #2f303a;
+  --background-grey-btn-color: #f5f4fa;
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --primary-logo-color: #2196f3;
+  --secondary-logo-color: #000000;
+  --contact-link-color: rgba(255, 255, 255, 0.6);
+  --address-color: #ffffff;
+}
+
+.body {
+  font-family: 'Roboto', '-apple-system', 'BlinkMacSystemFont', 'Avenir next',
+    'Avenir', 'Helvetica neue', 'Helvetica', 'Ubuntu', 'Noto', 'Segoe ui',
+    'Arial', sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: var(--primary-text-color);
+  letter-spacing: 0.03em;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--secondary-logo-color);
+  text-decoration: none;
+}
+
+.logo:focus {
+  color: var(--secondary-logo-color);
+}
+
+.logo-first {
+  color: var(--primary-logo-color);
+}
+
+.navigation-list {
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--primary-text-color);
+  text-decoration: none;
+}
+
+.navigation-list:hover,
+.navigation-list:focus,
+.navigation-list:active {
+  color: var(--primary-logo-color);
+}
+
+.list .navigation-list.current {
+  color: var(--primary-logo-color);
+}
+
+.contact-link {
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--secondary-text-color);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.contact-link:hover,
+.contact-link:focus,
+.contact-link:active {
+  color: var(--primary-logo-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero-section {
+  background-color: var(--background-dark);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--address-color);
+}
+
+.hero-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--address-color);
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  background-color: var(--primary-logo-color);
+  cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: #188ce8;
+}
+
+/* Features */
+.features-title {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features-text {
+  line-height: 1.71;
+  color: var(--secondary-text-color);
+}
+
+/* About */
+.about-title,
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Our team */
+.team {
+  background-color: var(--background-grey-btn-color);
+}
+.name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.info {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* Footer */
+.logo-second {
+  color: var(--address-color);
+}
+.contacts {
+  background-color: var(--background-dark);
+}
+.address-info {
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--address-color);
+}
+
+.address-info:hover,
+.address-info:focus {
+  color: var(--primary-logo-color);
+}
+
+.contact-inf {
+  font-family: inherit;
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--contact-link-color);
+  text-decoration: none;
+}
+
+.contact-inf:hover,
+.contact-inf:focus {
+  color: var(--primary-logo-color);
+}
+
+/* Portfolio */
+.list-menu:focus {
+  color: var(--secondary-logo-color);
+}
+
+.list-button {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+  background-color: var(--background-grey-btn-color);
+  cursor: pointer;
+}
+
+.list-button:hover,
+.list-button:focus,
+.list-button:active {
+  background-color: var(--primary-logo-color);
+  color: var(--address-color);
+}
+.list-button:active {
+  color: var(--address-color);
+}
+
+/* Gallery */
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+
+.title-info {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--secondary-text-color);
+}

@@ -56,10 +56,7 @@ img {
   height: auto;
 }
 
-.features,
-.about,
-.team,
-.nav-gallery {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }

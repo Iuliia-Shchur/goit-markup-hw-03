@@ -56,8 +56,15 @@ img {
   height: auto;
 }
 
-/* header */
+.features,
+.about,
+.team,
+.nav-gallery {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
+/* header */
 .header-list {
   display: flex;
 }
@@ -68,6 +75,7 @@ img {
 
 .logo {
   display: block;
+  margin-right: 93px;
 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -75,8 +83,6 @@ img {
   line-height: 1.19;
   color: var(--secondary-logo-color);
   text-decoration: none;
-
-  margin-right: 93px;
 }
 
 .logo:focus {
@@ -164,15 +170,15 @@ img {
 }
 
 .hero-title {
+  margin-bottom: 30px;
+  padding-top: 200px;
+
   font-weight: 900;
   font-size: 44px;
   line-height: 1.67;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--address-color);
-
-  margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .hero-button {
@@ -190,7 +196,6 @@ img {
   letter-spacing: 0.06em;
   background-color: var(--primary-logo-color);
   cursor: pointer;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
 
@@ -200,7 +205,6 @@ img {
 }
 
 /* Features */
-
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -212,11 +216,6 @@ img {
   flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
   margin-left: 30px;
   margin-top: 30px;
-}
-
-.features {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .features-title {
@@ -233,10 +232,6 @@ img {
 }
 
 /* About */
-.about {
-  padding-bottom: 94px;
-}
-
 .about-item {
   --grid-item: 3;
 }
@@ -251,15 +246,12 @@ img {
 }
 
 /* Our team */
-
 .team-item {
   --grid-item: 4;
 }
 
 .team {
   background-color: var(--background-grey-btn-color);
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .card-content {
@@ -287,7 +279,6 @@ img {
 }
 
 /* Footer */
-
 .footer-logo {
   margin-bottom: 50px;
 }
@@ -295,11 +286,13 @@ img {
 .logo-second {
   color: var(--address-color);
 }
+
 .contacts {
-  background-color: var(--background-dark);
   padding-top: 60px;
   padding-bottom: 60px;
+  background-color: var(--background-dark);
 }
+
 .address-info {
   margin-bottom: 9px;
 
@@ -332,7 +325,6 @@ img {
 }
 
 /* Portfolio */
-
 .navigation-border {
   border-bottom: 1px solid #ececec;
 }
@@ -341,13 +333,8 @@ img {
   color: var(--secondary-logo-color);
 }
 
-.button-list {
-  flex-direction: row;
-}
-
 .navigation-button {
   display: flex;
-  margin: 0 auto;
   justify-content: center;
   margin-bottom: 50px;
   margin-left: auto;
@@ -388,7 +375,6 @@ img {
 }
 
 /* Gallery */
-
 .card-item {
   --grid-item: 3;
 }
@@ -396,14 +382,12 @@ img {
 .gallery-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .card-info {
   padding: 20px 24px;
-  background: #ffffff;
   border: 1px solid #eeeeee;
+  background: var(--address-color);
 }
 
 .title {

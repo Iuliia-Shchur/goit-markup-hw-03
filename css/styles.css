@@ -274,6 +274,11 @@ img {
 }
 
 /* Footer */
+
+.footer-logo {
+  margin-bottom: 50px;
+}
+
 .logo-second {
   color: var(--address-color);
 }
@@ -283,6 +288,8 @@ img {
   padding-bottom: 60px;
 }
 .address-info {
+  margin-bottom: 9px;
+
   font-style: normal;
   line-height: 1.71;
   color: var(--address-color);
@@ -294,11 +301,16 @@ img {
 }
 
 .contact-inf {
+  display: block;
   font-family: inherit;
   font-style: normal;
   line-height: 1.71;
   color: var(--contact-link-color);
   text-decoration: none;
+}
+
+.contact-inf:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contact-inf:hover,

@@ -7,6 +7,7 @@
   --secondary-logo-color: #000000;
   --contact-link-color: rgba(255, 255, 255, 0.6);
   --address-color: #ffffff;
+  --grid-item: 4;
 }
 
 .container {
@@ -47,6 +48,12 @@ html {
   font-weight: 400;
   color: var(--primary-text-color);
   letter-spacing: 0.03em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* header */
@@ -186,6 +193,19 @@ html {
 
 /* Features */
 
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+
+.grid-item {
+  flex-basis: calc((100% - 30px * var(--grid-item)) / var(--grid-item));
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
 .features {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -209,6 +229,10 @@ html {
   padding-bottom: 94px;
 }
 
+.about-item {
+  --grid-item: 3;
+}
+
 .about-title,
 .team-title {
   font-weight: 700;
@@ -219,6 +243,11 @@ html {
 }
 
 /* Our team */
+
+.team-item {
+  --grid-item: 4;
+}
+
 .team {
   background-color: var(--background-grey-btn-color);
   padding-top: 94px;
